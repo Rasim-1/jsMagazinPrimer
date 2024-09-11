@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    background-color: #f3f2f7;
+}
+ .header__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.header__info{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.footer__img{
+  width: 100%;
+  padding: auto;
+}
+.wrapper__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper__title{
+    font-family: var(--second-family);
+font-weight: 900;
+font-size: 36px;
+line-height: 110%;
+text-transform: uppercase;
+color: #fff;
+}
+
+.wrapper__btn{
+    border-radius: 50px;
+padding: 12px 30px;
+width: 158px;
+height: 46px;
+max-width: 158px;
+}
+.wrapper__box{
+    background: #299ab3;
+    padding: 56px;
+width: 486px;
+height: 470px;
+min-width: 486px;
+gap: 25px;
+}
+.wrapper{
+    display: flex;
+   margin-bottom: 52px;
+   border-radius: 0 15px 15px 0;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.card{
+    flex-direction: column;
+    align-items: center;
+
+   margin-left: 100px;
+}
+.wrapper__card{
+    display:flex;
+
+}
+.wrapper__card-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+    
+}
+.wrapper__flow-card{
+    text-align: center;
+} 
+.card{
+
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+
+}
+.wrapper{
+   
+h4 {
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #282828;
+}
+
+}
+.wrapper__about{
+    display: flex;
+   align-items: center;
+justify-content: center;
+gap: 5px;
+}
+.wrapper__flow-btn{
+    border-radius: 12px;
+    padding: 12px 30px;
+    width: 194px;
+    height: 46px;
+    background: #299ab3;
+    margin-bottom: 67px;
+}
+
+.wrapper__title2{
+    font-family: var(--second-family);
+font-weight: 900;
+font-size: 32px;
+line-height: 120%;
+color: #fff;
+}
+.wrapper__title3{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: #fff;
+}
+.wrapper__btn2{
+background: #024764;
+border-radius: 12px;
+padding: 12px 30px;
+width: 374px;
+height: 46px;
+}
+input{
+    border-radius: 12px;
+padding: 12px 30px;
+width: 374px;
+height: 42px;
+background: #f3f2f7;
+}
+.text__shar{
+    display: flex;
+    margin-bottom: 52px;
+}
+.wrapper__text{
+    width: 470px;
+    height: 530px;
+    flex-direction: column;
+    margin-left: 56px;
+}
